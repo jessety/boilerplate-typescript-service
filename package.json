@@ -21,7 +21,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . && ec",
+    "lint": "eslint . && ec .",
     "start": "node build/index.js",
     "test": "jest"
   },
