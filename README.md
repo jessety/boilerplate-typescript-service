@@ -2,6 +2,8 @@
 
 Boilerplate for a TypeScript Node service
 
+[![ci](https://github.com/jessety/boilerplate-typescript-service/workflows/ci/badge.svg)](https://github.com/jessety/boilerplate-typescript-service/actions/workflows/ci.yml)
+
 Includes
 
 - Jest TypeScript configuration
