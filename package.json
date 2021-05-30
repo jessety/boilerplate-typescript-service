@@ -27,7 +27,10 @@
     "format": "sort-package-json && prettier --write '**/*.ts' && eslint --fix .",
     "start": "node build/index.js",
     "start:watch": "nodemon",
-    "test": "jest"
+    "test": "jest",
+    "release:patch": "npm version patch && git push --follow-tags",
+    "release:minor": "npm version minor && git push --follow-tags",
+    "release:major": "npm version major && git push --follow-tags"
   },
   "devDependencies": {
     "@jessety/eslint-config": "^2.0.1",
