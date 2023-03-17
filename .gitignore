@@ -1,6 +1,7 @@
 node_modules
 coverage
 build
+.eslintcache
 
 **/.DS_Store
 **/.Spotlight-V100

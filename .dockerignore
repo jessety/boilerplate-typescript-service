@@ -1,0 +1,6 @@
+# Note: The production stage docker image only copies over the compiled code, package.json and .env files
+# This ignore file is only here to optimize the build stage
+node_modules
+coverage
+build
+test
